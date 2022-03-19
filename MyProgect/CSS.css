@@ -1,0 +1,124 @@
+.header{
+    display: grid;
+    padding: auto 30px;
+    background-color:rgb(59, 59, 59);
+    position: sticky;
+    top: 0;
+    grid-template-columns: auto 400px 150px;
+    height: 80px;
+}
+.header__img{
+    margin: 15px;
+    height: 50px;
+}
+.header__input{
+    font-size: 20px;
+    background-color: rgb(156, 156, 156);
+    margin: 20px;
+    width: 400px;
+    height: 40px;
+}
+.header__button{
+    font-size: 20px;
+    margin: 20px;
+    width: px;
+    height: 40px;
+}
+.main{
+    background-color: #973a3a;
+    height: auto;
+    display: grid;
+    grid-template-columns: 250px auto;
+}
+.footer{
+    display: grid;
+    height:100px;
+    background-color:rgb(59, 59, 59);
+    grid-template-columns: auto 40px 40px 40px 40px 40px 40px auto;
+    padding-top: 20px;
+}
+.main__other{
+    color: rgb(255, 255, 255);
+}
+.info{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 90%;
+
+}
+.news{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    font-size: 14px;
+    margin: 20px;
+    
+}
+.news div{
+
+}
+.now__link{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);;
+}
+.new__link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+h2{
+    font-size: 20px;
+}
+.main__menu{
+    border: 1px solid rgb(59, 59, 59);
+    
+}
+.popular{
+    margin: 10px;
+}
+.now{
+    margin: 10px;
+}
+.new{
+    margin: 10px;
+}
+.popular li{
+    margin-bottom: 5px;
+}
+.sidebar{
+    padding: 40px;
+    margin: 0 0 10px 0;
+    position: sticky;
+    top: 80px;
+    
+}
+.sidebar__link{
+    align-self:center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+}
+.sidebar__list li{
+    margin: 0px 0px 10px 0px;
+    margin: 0px 0 10px 0;
+}
+.sidebar__list :nth-child(1){
+    list-style-image:url("../MyProgect/главная.svg");
+}
+.sidebar__list :nth-child(2){
+    list-style-image:url("../MyProgect/онлайн-кинотеатр.svg");
+}
+.sidebar__list :nth-child(3){
+    list-style-image:url("../MyProgect/фильмы.svg");
+}
+.sidebar__list :nth-child(4){
+    list-style-image:url("../MyProgect/сериалы.svg");
+}
+.sidebar__list :nth-child(5){
+    list-style-image:url("../MyProgect/билеты.svg");
+}
+.sidebar__list :nth-child(6){
+    list-style-image:url("../MyProgect/медиа.svg");
+}
